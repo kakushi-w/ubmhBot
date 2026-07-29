@@ -1,7 +1,7 @@
 {
   "wiki": "ubmh",
   "threadId": 15438269,
-  "windowSeconds": 600,
-  "pageThreshold": 5,
+  "windowSeconds": 120,
+  "pageThreshold": 3,
   "userAgent": "Mozilla/5.0"
 }

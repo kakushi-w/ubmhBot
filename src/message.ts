@@ -12,8 +12,8 @@ export function buildDetectionSource(group: DetectionGroup, failedNames: string[
   const links = group.pages.map((page) => `${siteUrl()}/${page.deletedName}`).join("\n");
 
   const lines = [
-    `[[*user ${group.author}]]，连续发送了**${total}**个页面，存在疑似批量刷页面行为`,
-    "以下是被移动到{deleted}分类的页面列表",
+    `[[*user ${group.author}]]，连续发送了**${total}**个页面，疑似存在批量刷页面行为`,
+    "以下是被移动到{{deleted}}分类的页面列表",
     '[[collapsible show="展开所有页面" hide="收起所有页面"]]',
     links,
     "",
